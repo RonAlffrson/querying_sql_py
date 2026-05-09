@@ -7,7 +7,7 @@ Since SQLite requires no server or complex configuration, this approach provided
 ## Project Execution
 
 - **Database Connection:** Successfully connected to the Chinook database file using Python's `sqlite3` library.
-- **Schema Exploration:** Explored the database schema to identify all tables (such as Tracks, Invoices, Customers, and Employees) and mapped their relationships.
+- **Schema Exploration:** Explored the database schema to identify all tables (such as Tracks, Invoices, Customers, and Employees) and mapped their relationships using the [sqlite-web](https://github.com/coleifer/sqlite-web) (a Web-based SQLite database browser)
 - **Data Querying:** Wrote and executed complex SQL queries to solve specific business problems:
     - Identified the **10 best-selling tracks** by volume.
     - Analyzed global sales to determine **which country generates the most revenue**.
